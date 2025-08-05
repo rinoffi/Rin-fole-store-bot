@@ -99,8 +99,8 @@ class Bot(Client):
 
         self.set_parse_mode(ParseMode.HTML)
         self.username = usr_bot_me.username
-        self.LOGGER(__name__).info(f"Bot Running..! Made by @Codeflix_Bots \| v1.0") 
-
+        self.LOGGER(__name__).info("Bot Running..! Made by @Codeflix_Bots \\| v1.0")
+        
         # Start Web Server
         app = web.AppRunner(await web_server())
         await app.setup()
